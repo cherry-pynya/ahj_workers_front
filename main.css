@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+}
+
+.black[class] {
+  background-color: black;
+}
+
+.invalid[class] {
+  display: none;
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+}
+
+.news-container {
+  position: relative;
+  width: 500px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 15%;
+  border: none;
+  background-color: transparent;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+.news-item {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-direction: column;
+}
+
+.item-body {
+  margin-top: 5px;
+  display: flex;
+  align-items: flex-start;
+  height: 50px;
+}
+
+.item-img {
+  width: 10%;
+  height: 100%;
+}
+
+.item-text {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+}
+
+.item-timestamp {
+  width: 30%;
+}
+
+.news-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.nope {
+  color: aliceblue;
+  font-size: 24px;
+  margin: auto;
+}
+
+
+
+/*# sourceMappingURL=main.css.map*/
